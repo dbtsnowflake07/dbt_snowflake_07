@@ -1,8 +1,8 @@
 {{ config(
     materialized='table',
     
-    schema='Staging'
+    schema='Intermediate'
 )}}
 select id as customer_id, first_name , last_name from {{
-    ref("raw_customers")
+    ref("stg_customers")
      }}
