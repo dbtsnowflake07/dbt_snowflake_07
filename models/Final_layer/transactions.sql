@@ -31,11 +31,3 @@ on ord.order_id= p.order_id
 where order_status='completed'
 group by 1,2,3,4
 order by cust.customer_id
-
-
-
-
-
-
-
-
