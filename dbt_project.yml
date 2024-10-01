@@ -12,4 +12,6 @@ models:
   intermediate_layer:
     +materialized: tables
 
+seeds:
+  +schema: seed_schema
 

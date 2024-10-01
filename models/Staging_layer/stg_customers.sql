@@ -5,6 +5,7 @@
 
 
 select * from {{source('dbt_raw_layer','raw_customers')}}
+--jinja 
 
 
 
